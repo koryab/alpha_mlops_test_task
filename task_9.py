@@ -1,4 +1,4 @@
-from random import sample
+from random import randint
 
 def randlist(n, a, b):
     """Generates list of random integers of length N.
@@ -13,7 +13,7 @@ def randlist(n, a, b):
         List of integers.
     """
 
-    return sample(range(a, b), n)
+    return [randint(a, b) for _ in [1] * n]
 
 
 if __name__ == "__main__":
