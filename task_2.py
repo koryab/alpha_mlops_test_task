@@ -7,9 +7,8 @@ def parse_args():
                         required=True,
                         action="store",
                         help="coordinates of points A, B, C, D respectively.")
-    args = parser.parse_args()
 
-    return args
+    return parser.parse_args()
 
 def count_ratio(coords):
     a, b, c, d = list(map(float, coords))
