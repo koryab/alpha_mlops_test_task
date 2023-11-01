@@ -14,11 +14,10 @@ class Parallelepiped():
 
         print(introduction)
         print("Let's set sizes:")
+        
         for edge in ["a", "b", "c"]:
             setattr(self, edge, self._get_side(edge))
-        # self.a = int(input("Input side \'a\' size: "))
-        # self.b = int(input("Input side \'b\' size: "))
-        # self.c = int(input("Input side \'c\' size: "))
+
         self._count_squares()
         self._count_volume()
         print()
