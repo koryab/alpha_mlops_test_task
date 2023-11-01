@@ -1,7 +1,7 @@
 from argparse import ArgumentParser
 
 def parse_args():
-    parser = ArgumentParser(description="Process some integers.")
+    parser = ArgumentParser(description="Executes lenghts of segments AB to CD ratio.")
     parser.add_argument("-c", "--coords",
                         nargs="+",
                         required=True,

@@ -1,7 +1,7 @@
 from argparse import ArgumentParser
 
 def parse_args():
-    parser = ArgumentParser(description="Process some integers.")
+    parser = ArgumentParser(description="Counts weeks passed.")
     parser.add_argument("-d", "--days",
                         type=int,
                         required=True,
